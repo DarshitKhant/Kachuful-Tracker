@@ -1,0 +1,102 @@
+@media (max-width: 800px) {
+    .app-shell {
+        width: min(100% - 24px, 680px);
+        padding-top: 18px;
+    }
+
+    .app-header {
+        align-items: flex-start;
+        margin-bottom: 24px;
+    }
+
+    .header-meta {
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 8px;
+    }
+
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .round-row {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .round-player {
+        grid-column: 1 / -1;
+    }
+}
+
+@media (max-width: 560px) {
+    .app-shell {
+        width: min(100% - 18px, 500px);
+    }
+
+    .app-header {
+        gap: 10px;
+    }
+
+    .brand-mark {
+        width: 40px;
+        height: 40px;
+    }
+
+    .brand h1 {
+        font-size: 18px;
+    }
+
+    .game-meta {
+        display: none;
+    }
+
+    .page-heading {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .page-heading .btn {
+        width: 100%;
+    }
+
+    .player-card,
+    .info-card,
+    .round-card {
+        padding: 18px;
+    }
+
+    .add-player-form {
+        grid-template-columns: 1fr;
+    }
+
+    .round-row {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .round-player {
+        grid-column: 1 / -1;
+    }
+
+    .play-footer-actions {
+        flex-direction: column-reverse;
+        align-items: stretch;
+    }
+
+    .play-footer-actions .btn {
+        width: 100%;
+    }
+
+    .app-footer {
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .modal {
+        padding: 10px;
+    }
+
+    .modal-box {
+        padding: 18px;
+        border-radius: 14px;
+    }
+}
